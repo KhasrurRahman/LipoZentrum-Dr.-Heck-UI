@@ -1,7 +1,4 @@
-# Lama Dev School Management Dashboard
-
 ## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -16,11 +13,16 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
+External Library Useses:
+react calender: https://www.npmjs.com/package/react-calendar
+Recharts: https://recharts.org/en-US
+React Big Calender: https://www.npmjs.com/package/react-big-calendar
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+
+2nd Task:
+ - Role management structure
+ - Appointment page design and fatch with demo data
+ - make new Contact page and fetch with demo data
+ - Patient details Page design 

@@ -125,7 +125,7 @@ export const teachersData = [
   },
 ];
 
-export const studentsData = [
+export const NewContactData = [
   {
     id: 1,
     studentId: "1234567890",
@@ -137,6 +137,7 @@ export const studentsData = [
     grade: 5,
     class: "1B",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 2,
@@ -149,6 +150,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 3,
@@ -161,6 +163,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 4,
@@ -173,6 +176,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 5,
@@ -185,6 +189,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 6,
@@ -197,6 +202,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 7,
@@ -209,6 +215,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 8,
@@ -221,6 +228,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 9,
@@ -233,6 +241,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 10,
@@ -245,6 +254,7 @@ export const studentsData = [
     grade: 5,
     class: "5A",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
 ];
 
@@ -256,6 +266,7 @@ export const parentsData = [
     email: "john@doe.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 2,
@@ -264,6 +275,7 @@ export const parentsData = [
     email: "jane@doe.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 3,
@@ -272,6 +284,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 4,
@@ -280,6 +293,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 5,
@@ -288,6 +302,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 6,
@@ -296,6 +311,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 7,
@@ -304,6 +320,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 8,
@@ -312,6 +329,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 9,
@@ -320,6 +338,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
   {
     id: 10,
@@ -328,6 +347,7 @@ export const parentsData = [
     email: "mike@geller.com",
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
+    message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
   },
 ];
 
@@ -921,143 +941,143 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2025, 5, 12, 8, 0),
+    end: new Date(2025, 5, 12, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2025, 5, 12, 9, 0),
+    end: new Date(2025, 5, 12, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(2025, 5, 12, 10, 0),
+    end: new Date(2025, 5, 12, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(2025, 5, 12, 11, 0),
+    end: new Date(2025, 5, 12, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
+    start: new Date(2025, 5, 12, 13, 0),
+    end: new Date(2025, 5, 12, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
+    start: new Date(2025, 5, 12, 14, 0),
+    end: new Date(2025, 5, 12, 14, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
+    start: new Date(2025, 5, 13, 9, 0),
+    end: new Date(2025, 5, 13, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
+    start: new Date(2025, 5, 13, 10, 0),
+    end: new Date(2025, 5, 13, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2025, 5, 13, 11, 0),
+    end: new Date(2025, 5, 13, 11, 45),
   },
 
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2025, 5, 13, 14, 0),
+    end: new Date(2025, 5, 13, 14, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
+    start: new Date(2025, 5, 14, 8, 0),
+    end: new Date(2025, 5, 14, 8, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2025, 5, 14, 10, 0),
+    end: new Date(2025, 5, 14, 10, 45),
   },
 
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
+    start: new Date(2025, 5, 14, 13, 0),
+    end: new Date(2025, 5, 14, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2025, 5, 14, 14, 0),
+    end: new Date(2025, 5, 13, 14, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
+    start: new Date(2025, 5, 15, 9, 0),
+    end: new Date(2025, 5, 15, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(2025, 5, 15, 10, 0),
+    end: new Date(2025, 5, 15, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(2025, 5, 15, 11, 0),
+    end: new Date(2025, 5, 15, 11, 45),
   },
 
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
+    start: new Date(2025, 5, 15, 14, 0),
+    end: new Date(2025, 5, 15, 14, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
+    start: new Date(2025, 5, 16, 8, 0),
+    end: new Date(2025, 5, 16, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(2025, 5, 16, 9, 0),
+    end: new Date(2025, 5, 16, 9, 45),
   },
 
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    start: new Date(2025, 5, 16, 11, 0),
+    end: new Date(2025, 5, 16, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2025, 5, 16, 13, 0),
+    end: new Date(2025, 5, 16, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2025, 5, 16, 14, 0),
+    end: new Date(2025, 5, 16, 14, 45),
   },
 ];
