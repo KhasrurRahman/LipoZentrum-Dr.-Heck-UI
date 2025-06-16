@@ -2,7 +2,7 @@
 
 export let role = "admin";
 
-export const teachersData = [
+export const patientsData = [
   {
     id: 1,
     teacherId: "1234567890",
@@ -255,6 +255,59 @@ export const NewContactData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
     message: "Hello, I am John Doe, a student in class 1B. I am looking forward to learning more about the subjects this year.",
+  },
+];
+
+export const PatientPaymentHistory = [
+  {
+    id: 1,
+    date: "10.01.2025",
+    Amount: "12,00.00",
+  },
+  {
+    id: 2,
+    date: "10.05.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 3,
+    date: "14.01.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 4,
+    date: "12.07.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 5,
+    date: "11.03.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 6,
+    date: "10.01.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 7,
+    date: "18.12.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 8,
+    date: "17.02.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 9,
+    date: "10.01.2025",
+    amount: "12,00.00",
+  },
+  {
+    id: 10,
+    date: "10.09.2025",
+    amount: "12,00.00",
   },
 ];
 
@@ -934,7 +987,6 @@ export const announcementsData = [
     date: "2025-01-01",
   },
 ];
-
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [

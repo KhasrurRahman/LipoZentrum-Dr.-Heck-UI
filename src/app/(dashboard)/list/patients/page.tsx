@@ -2,11 +2,11 @@
 import Pagination from "@/components/pagination";
 import Table from "@/components/table";
 import TableSearch from "@/components/TableSearch";
-import { role, teachersData } from "@/lib/data";
+import { role, patientsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 
-type Teacher = {
+type Patient = {
   id: number;
   teacherId: string;
   name: string;
@@ -45,8 +45,8 @@ const columns = [
   },
 ];
 
-const TeacherListPage = () => {
-  const renderRow = (item: Teacher) => (
+const PatientListPage = () => {
+  const renderRow = (item: Patient) => (
     <tr
       key={item.id}
       className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-lamaPurpleLight"
@@ -107,11 +107,11 @@ const TeacherListPage = () => {
         </div>
       </div>
       {/* LIST */}
-      <Table columns={columns} renderRow={renderRow} data={teachersData} />
+      <Table columns={columns} renderRow={renderRow} data={patientsData} />
       {/* PAGINATION */}
       <Pagination />
     </div>
   );
 };
 
-export default TeacherListPage;
+export default PatientListPage;

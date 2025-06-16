@@ -1,9 +1,53 @@
 import BigCalender from "@/components/BigCalender"
-import { role } from "@/lib/data"
+import EventCalendar from "@/components/EventCalendar"
+import SurgeryAppointment from "@/components/SurgeryAppointment"
+import Table from "@/components/table"
+import { role, PatientPaymentHistory } from "@/lib/data"
 import Image from "next/image"
 import Link from "next/link"
 
+type paymentdata = {
+    id: number;
+    date: string;
+    amount: string;
+}
+
+const paymentColumns = [
+    {
+        header: "Id",
+        accessor: "id",
+    },
+    {
+        header: "Payment Date",
+        accessor: "date",
+    },
+    {
+        header: "Amount",
+        accessor: "amount",
+    },
+]
+
+const renderpaymentRow = (item: paymentdata) => (
+    <tr
+        key={item.id}
+        className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-lamaPurpleLight"
+    >
+        <td className="flex items-center gap-4 p-4">
+        <div className="flex flex-col">
+          <h3 className="font-semibold">{item.id}</h3>
+        </div>
+      </td>
+      
+        <td className="table-cell">{item.date}</td>
+        <td className="table-cell">{item.amount}</td>
+    </tr>
+);
+
+
 const SinglePatientPage = () => {
+
+
+
     return (
         <div className="flex-1 p-4 flex flex-col gap-4 xl:flex-row">
             {/* LEFT */}
@@ -62,7 +106,7 @@ const SinglePatientPage = () => {
                             />
                             <div className="">
                                 <h1 className="text-xl font-semibold">90%</h1>
-                                <span className="text-sm text-gray-400">progress</span>
+                                <span className="text-sm text-gray-400">Task progress</span>
                             </div>
                         </div>
                         {/* CARD */}
@@ -103,7 +147,7 @@ const SinglePatientPage = () => {
                                 className="w-6 h-6"
                             />
                             <div className="">
-                                <h1 className="text-xl font-semibold">10,000.00</h1>
+                                <h1 className="text-xl font-semibold">12,000.00</h1>
                                 <span className="text-sm text-gray-400">paid</span>
                             </div>
                         </div>
@@ -111,9 +155,17 @@ const SinglePatientPage = () => {
                 </div>
                 {/* BOTTOM */}
                 <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
-                    <h1>Teacher&apos;s Schedule</h1>
+                    <h1 className="text-xl font-semibold">Patient&apos;s Appointment</h1>
                     <BigCalender />
                 </div>
+
+                <div className="mt-4 bg-white h-[350px] ">
+                    <h1 className="text-xl font-semibold">payment History</h1>
+                    <Table columns={paymentColumns} renderRow={renderpaymentRow} data={PatientPaymentHistory} />
+
+                </div>
+
+ 
             </div>
             {/* RIGHT */}
             <div className="w-full xl:w-1/3 flex flex-col gap-4">
@@ -137,8 +189,8 @@ const SinglePatientPage = () => {
                         </Link>
                     </div>
                 </div>
-                {/* <Performance />
-        <Announcements /> */}
+                {/* <Performance /> */}
+                <SurgeryAppointment />
             </div>
         </div>
     )
