@@ -988,6 +988,39 @@ export const announcementsData = [
   },
 ];
 
+export const patientEmailHistoryData = [
+  {
+    id: 1,
+    subject: "About 4A Test",
+    date: "2025-01-01",
+  },
+  {
+    id: 1,
+    subject: "About 4A Test",
+    date: "2025-01-01",
+  },
+  {
+    id: 2,
+    subject: "About 4A Test",
+    date: "2025-01-01",
+  },
+  {
+    id: 3,
+    subject: "About 4A Test",
+    date: "2025-01-01",
+  },
+  {
+    id: 4,
+    subject: "About 4A Test",
+    date: "2025-01-01",
+  },
+  {
+    id: 5,
+    subject: "About 4A Test",
+    date: "2025-01-01",
+  },
+];
+
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {
