@@ -34,6 +34,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 5. Zod(React Form validation): [Zod](https://zod.dev)
 6. Hook Form resolvers for form validation: [hookform/resolvers](https://www.npmjs.com/package/@hookform/resolvers)
 7. Database management tools: [prisma](https://www.prisma.io)
+8. Role Based Auth: [Clerk](https://clerk.com/)
 
 Github Repo for design part: https://github.com/KhasrurRahman/LipoZentrum-Dr.-Heck-UI
 
@@ -51,13 +52,14 @@ Github Repo for design part: https://github.com/KhasrurRahman/LipoZentrum-Dr.-He
 - make full page device responsive
 - Deplaoy The complted version to testing version for feedback that it is align with the requirements or not (https://lipo-zentrum.vercel.app/admin)
 - Find Frontend Developer Profile
+  
 ### 2. <span style="color:rgb(0, 176, 80)"><u>(23.06.2025) - project Status and updates:</u></span>
 - Payment History Table added to the patient details page
 - Email History Table added to the patient details page
 - Create Dynamic Form Modal Component with different icons
-- Create
-- Delete
-- Update
+	- Create
+	- Delete
+	- Update
 - Dynamic Form for all modules
 
 > [!note] 
@@ -86,10 +88,39 @@ Github Repo for design part: https://github.com/KhasrurRahman/LipoZentrum-Dr.-He
 - Create database schema for **<span style="color:rgb(255, 0, 0)">patient</span> and <span style="color:rgb(255, 0, 0)">admin</span>** table on **Prisma** file.
 - Install Prisma migration for migrate different table from prisma
 - setup **<span style="color:rgb(255, 0, 0)">Prisma Studio</span>** to get the GUI of our databse to get a vizualization to work with the database more easily
+
+### 3. <span style="color:rgb(0, 176, 80)"><u>(30.06.2025) - project Status and updates:</u></span>
+
 ---
 ## <span style="color:rgb(199, 112, 112)">Feedback and Approval</span>
 
 **Backend Design and arrangement:**
+1. Admin Dashboard:
+   - Total spend time in application - done
+   - Categorise patients (parameter: time spend in application, booking status, level gamification feature, connecting to other users)
+2. All patients list: - done
+   - Filter options: doctors, 1st, 2nd, 3rd, 4th surgery, pre-consultation, post-consultation,age, zip-code - **done**
+3. Single Patient Details (example): - done with one question
+   - Height, weight
+   - Please delete blood type
+   - Pre-existing conditions
+   - Birthday (automated birthday wishes)
+   - Surgery Appointment
+   - Who’s the doctor?
+   - Insurance status
+   - How can we send documents in secure way? Encrypted
+   - Need overview which documents where send
+   - What was talked on the phone with patient?
+3. Appointments:
+   - Consultation or Re-presentation after the healing year can automatically be
+   booked
+   - Surgery appointments can only be requested (need to be checked with team)
+4. New Contacts
+   - From where do they come? Just created a user account? Or also from social
+   media?
+   - Does application replaces our social media account?
+   - Can we link social media and create a blogpost page in application?
+
 
 **Form Field:**
 

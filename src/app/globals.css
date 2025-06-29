@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.cl-userButtonPopoverFooter{
+  display: none !important;
+}
+.cl-internal-1dauvpw{
+  display: none !important;
+}
 .react-calendar{
     width: 100% !important;
     border: none !important;

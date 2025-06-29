@@ -1,4 +1,5 @@
 import AppointmentChart from "@/components/AppointmentChart"
+import PatientCategoryStack from "@/components/CategoricalpatientCard"
 import CountChart from "@/components/CountChart"
 import EventCalendar from "@/components/EventCalendar"
 import PaymentChart from "@/components/PaymentChart"
@@ -31,6 +32,7 @@ const AdminPage = () => {
         {/* Bottom chart */}
         <div className="w-full h-[500px]">
           <PaymentChart />
+          <PatientCategoryStack />
         </div>
       </div>
 

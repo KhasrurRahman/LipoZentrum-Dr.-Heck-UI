@@ -1166,3 +1166,92 @@ export const calendarEvents = [
     end: new Date(2025, 5, 16, 14, 45),
   },
 ];
+
+
+// Example documents data
+export const patientDocuments = [
+    {
+        id: 1,
+        name: "Lab Report.pdf",
+        type: "PDF",
+        uploadedAt: "2025-06-01",
+        url: "/docs/lab-report.pdf",
+    },
+    {
+        id: 2,
+        name: "Prescription.jpg",
+        type: "Image",
+        uploadedAt: "2025-06-10",
+        url: "/docs/prescription.jpg",
+    },
+    {
+        id: 3,
+        name: "Discharge Summary.docx",
+        type: "Word",
+        uploadedAt: "2025-06-15",
+        url: "/docs/discharge-summary.docx",
+    },
+    {
+        id: 4,
+        name: "MRI Scan.pdf",
+        type: "PDF",
+        uploadedAt: "2025-06-18",
+        url: "/docs/mri-scan.pdf",
+    },
+    {
+        id: 5,
+        name: "Blood Test Results.pdf",
+        type: "PDF",
+        uploadedAt: "2025-06-20",
+        url: "/docs/blood-test.pdf",
+    },
+    {
+        id: 6,
+        name: "X-Ray Image.jpg",
+        type: "Image",
+        uploadedAt: "2025-06-22",
+        url: "/docs/xray.jpg",
+    },
+    {
+        id: 7,
+        name: "Referral Letter.docx",
+        type: "Word",
+        uploadedAt: "2025-06-23",
+        url: "/docs/referral-letter.docx",
+    },
+    {
+        id: 8,
+        name: "Insurance Form.pdf",
+        type: "PDF",
+        uploadedAt: "2025-06-24",
+        url: "/docs/insurance-form.pdf",
+    },
+    {
+        id: 9,
+        name: "Consent Form.pdf",
+        type: "PDF",
+        uploadedAt: "2025-06-25",
+        url: "/docs/consent-form.pdf",
+    },
+    {
+        id: 10,
+        name: "Ultrasound Image.jpg",
+        type: "Image",
+        uploadedAt: "2025-06-26",
+        url: "/docs/ultrasound.jpg",
+    },
+    {
+        id: 11,
+        name: "Follow-up Notes.docx",
+        type: "Word",
+        uploadedAt: "2025-06-27",
+        url: "/docs/followup-notes.docx",
+    },
+    {
+        id: 12,
+        name: "ECG Report.pdf",
+        type: "PDF",
+        uploadedAt: "2025-06-28",
+        url: "/docs/ecg-report.pdf",
+    }
+  ]
