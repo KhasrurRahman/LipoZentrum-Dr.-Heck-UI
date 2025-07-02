@@ -1,5 +1,7 @@
 # Project Overview:
 
+Testing Module: [Link](https://lipo-zentrum-qceeyufwx-khasrurrahmans-projects.vercel.app)
+
 The "NewLife" app is intended to be an innovative, GDPR-compliant solution developed specifically for patients suffering from lipedema. The app accompanies patients from the initial consultation through the "New Life" healing year and offers comprehensive support throughout the entire treatment process. By integrating gamification elements, the app encourages active patient participation, increases their motivation, facilitates communication, and helps patients master their surgical marathon in a playful and successful way.
 1. **Database Design:** [Database Design](https://www.drawdb.app/editor?shareId=68af70006c4d698674e4b9af4c977eb5)
 2. **Data Flow Diagram:** [Data Flow Diagram](https://www.figma.com/board/Ldg8HplG06q2RazmNeVWOr/LipoZentrum---New-Life--Data-Flow-Diagram-?node-id=0-1&t=qlVfbslMNCPITXMy-1)
@@ -134,3 +136,12 @@ Github Repo for design part: https://github.com/KhasrurRahman/LipoZentrum-Dr.-He
 - Photo
 - address
 - Gender
+- documents[]
+- birthday
+- surgery stage
+- gamification_level
+- next_consultation_date
+- Patient_joined
+- zip_code
+- assign_doctor
+- consultation_type
